@@ -4,7 +4,7 @@
   "description": "A Colonial Quaker Family",
   "main": "_site/index.html",
   "scripts": {
-    "assets": "cp node_modules/@11ty/logo/logo.png .",
+    "assets": "cp node_modules/@11ty/img/logo.png .",
     "links-external": "hyperlink -r --root _site --canonicalroot https://localhost:8080/ --skip '/.netlify/functions' _site/*.html | tap-spot",
     "links-internal": "hyperlink -ri --root _site --canonicalroot https://localhost:8080/ --skip '/.netlify/functions' _site/*.html | tap-spot",
     "build": "eleventy",
