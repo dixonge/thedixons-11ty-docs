@@ -1,5 +1,5 @@
 ---
-layout: layouts/main.njk
+layout: layouts/houses.njk
 logoLink: /
 ignoreGitHubButtons: true
 ignoreSupporters: true
