@@ -1,7 +1,8 @@
 ---
 eleventyNavigation:
+  parent: Notes
   key: Fading Memories
-  order: 2
+  order: 3
 title: Fading Memories
 author: Glenn Dixon
 image: /img/fading-feature.jpg

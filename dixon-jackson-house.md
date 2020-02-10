@@ -1,7 +1,8 @@
 ---
 eleventyNavigation:
+  parent: Homes
   key: Dixon-Jackson House
-  order: 4
+  order: 6
 title: Dixon-Jackson House
 author: Glenn Dixon
 image: /img/Dixon-Jackson-House.jpg

@@ -1,7 +1,8 @@
 ---
 eleventyNavigation:
+  parent: Homes
   key: Nichols House
-  order: 6
+  order: 8
 title: Nichols House
 author: Glenn Dixon
 image: /img/nichols-house-marker.jpg

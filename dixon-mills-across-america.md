@@ -1,7 +1,8 @@
 ---
 eleventyNavigation:
+  parent: Notes
   key: Dixon Mills Across America
-  order: 3
+  order: 4
 title: Dixon Mills Across America
 author: Glenn Dixon
 image: /img/tick-creek.png

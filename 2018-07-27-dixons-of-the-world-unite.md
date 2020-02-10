@@ -1,7 +1,8 @@
 ---
 eleventyNavigation:
+  parent: Notes
   key: Dixons of the World - Unite!
-  order: 1
+  order: 2
 title: Dixons of the World – Unite!
 author: Glenn Dixon
 image: /img/unite.jpeg

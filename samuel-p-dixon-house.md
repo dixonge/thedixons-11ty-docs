@@ -1,7 +1,8 @@
 ---
 eleventyNavigation:
+  parent: Homes
   key: Samuel P. Dixon House
-  order: 7
+  order: 9
 title: Samuel P. Dixon House
 author: Glenn Dixon
 image: /img/Samuel-P-Dixon-House.jpg

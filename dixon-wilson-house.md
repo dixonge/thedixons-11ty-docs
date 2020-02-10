@@ -1,7 +1,8 @@
 ---
 eleventyNavigation:
+  parent: Homes
   key: Dixon-Wilson House
-  order: 5
+  order: 7
 title: Dixon-Wilson House
 author: Glenn Dixon
 image: /img/Dixon-Wilson-House.jpg
