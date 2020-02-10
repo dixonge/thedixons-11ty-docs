@@ -2,7 +2,7 @@
 social:
   imgsrc: https://www.11ty.dev/img/open-graph.jpg
   imgalt: The 11ty logo text with a small floating possum on a balloon
-  description: Eleventy is a simpler static site generator.
+  description: The Dixons - A Colonial Quaker Family
 ---
 <!doctype html>
 <html lang="en"{% if templateClass %} class="{{ templateClass }}"{% endif %}>
@@ -10,16 +10,15 @@ social:
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		{%- set subtitle %}{{ newstitle or searchTitle or relatedTitle or tiptitle or eleventyNavigation.key or title }}{% endset %}
-		{%- set subtitleText %}{% if subtitle and subtitle != "Eleventy Home" %}{{ subtitle }} | Eleventy,{% else %}Eleventy is{% endif %} a simpler static site generator.{% endset %}
+		{%- set subtitleText %}{% if subtitle and subtitle != "Eleventy Home" %}{{ subtitle }} | The Dixons,{% endif %} a Colonial Quaker Family.{% endset %}
 		<title>{{ subtitleText }}</title>
 		<meta name="title" content="{{ subtitleText }}">
 		<meta name="description" content="{{ subtitleText }}">
-		<meta name="monetization" content="$pay.stronghold.co/1a155e3a09e210742be8c38ba7cab4795c4">
 
 		<!-- Open Graph / Facebook -->
 		<meta property="og:type" content="website">
-		<meta property="og:url" content="https://www.11ty.dev/">
-		<meta property="og:site_name" content="Eleventy">
+		<meta property="og:url" content="https://www.thedixons.net/">
+		<meta property="og:site_name" content="The Dixons">
 		<meta property="og:locale" content="en_US">
 		<meta property="og:title" content="{{ subtitle }}">
 		<meta property="og:description" content="{{ social.description }}">
@@ -30,9 +29,9 @@ social:
 
 		<!-- Twitter -->
 		<meta property="twitter:card" content="summary_large_image">
-		<meta property="twitter:site" content="@eleven_ty">
-		<meta property="twitter:creator" content="@zachleat">
-		<meta property="twitter:url" content="https://www.11ty.dev/">
+		<meta property="twitter:site" content="@realglenndixon">
+		<meta property="twitter:creator" content="@realglenndixon">
+		<meta property="twitter:url" content="https://www.thedixons.net/">
 		<meta property="twitter:title" content="{{ subtitleText }}">
 		<meta property="twitter:description" content="{{ social.description }}">
 		<meta property="twitter:image" content="{{ social.imgsrc }}">

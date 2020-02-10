@@ -2,7 +2,7 @@ module.exports = {
 	outdated: false,
 	prerelease: false,
 	minifyHtml: true,
-	githubEdit: "https://github.com/11ty/11ty-website/blob/master/",
+	githubEdit: "https://github.com/dixonge/thedixons-11ty-docs/blob/master/",
 	now: new Date(),
 	localDev: false
 };
