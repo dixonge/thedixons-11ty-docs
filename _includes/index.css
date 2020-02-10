@@ -399,7 +399,7 @@ footer.elv-layout {
 .elv-hed {
 	font-size: 2.625em; /* 42px /16 */
 	line-height: 1.2;
-	margin-top: 1.5em;
+	margin-top: .25em;
 	margin-bottom: .25em;
 	text-align: center;
 	text-transform: none;
