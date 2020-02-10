@@ -6,8 +6,9 @@ eleventyNavigation:
 title: Dixons of the World – Unite!
 author: Glenn Dixon
 layout: layouts/houses.njk
-image: /img/unite.jpeg
 ---
+![](/img/unite.jpeg)
+
 [Revised July 1, 2018]
 
 My original idea below has been superceded by the following:

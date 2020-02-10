@@ -6,8 +6,9 @@ eleventyNavigation:
 title: Samuel P. Dixon House
 author: Glenn Dixon
 layout: layouts/houses.njk
-image: /img/Samuel-P-Dixon-House.jpg
 ---
+![](/img/Samuel-P-Dixon-House.jpg)
+
 In 1791 [Jehu Dixon][1], son of [Isaac Dixon][2], built a fieldstone house in the eastern part of Mill Creek Hundred. After his death it eventually went to his son, [Samuel P. Dixon][3] who lived there until his death in 1879. He expanded the home and added a fieldstone barn and a springhouse.
 
 ![Samuel P Dixon House](/img/Samuel-P-Dixon-House-2.jpg)

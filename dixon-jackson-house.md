@@ -6,8 +6,9 @@ eleventyNavigation:
 title: Dixon-Jackson House
 author: Glenn Dixon
 layout: layouts/houses.njk
-image: /img/Dixon-Jackson-House.jpg
 ---
+![](/img/Dixon-Jackson-House.jpg)
+
 [Henry Dixon,][1] son of the immigrant [William Dixon][2], purchased two hundred acres in Mill Creek Hundred in 1726, at the age of 34. He built a one-room log house on his property in what is now northern Delaware. When he passed away in 1742 it was inherited by his son, [Samuel Dixon][3], who later sold it in 1771 before moving to Fayette County in southwest Pennsylvania.
 
 ![Dixon-Jackson House Floor Plan](/img/Dixon-Jackson-House-Floor-Plan.jpg)

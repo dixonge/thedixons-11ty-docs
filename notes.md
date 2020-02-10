@@ -5,5 +5,5 @@ eleventyNavigation:
 title: Notes
 author: Glenn Dixon
 layout: layouts/houses.njk
-image: /img/Dixon-Wilson-House.jpg
+image: /img/
 ---
