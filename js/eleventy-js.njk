@@ -1,0 +1,8 @@
+---
+permalink: js/eleventy.js
+eleventyExcludeFromCollections: true
+---
+{% set js %}
+{% include "components/search.js" %}
+{% endset %}
+{{ js | jsmin | safe }}
