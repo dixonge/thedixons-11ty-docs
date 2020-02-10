@@ -1,45 +1,45 @@
 [{
 	"name": "HTML",
 	"ext": "html",
-	"url": "/docs/languages/html/"
+	"url": "/houses/languages/html/"
 },{
 	"name": "Markdown",
 	"ext": "md",
-	"url": "/docs/languages/markdown/"
+	"url": "/houses/languages/markdown/"
 },{
 	"name": "JavaScript",
 	"ext": "11ty.js",
-	"url": "/docs/languages/javascript/"
+	"url": "/houses/languages/javascript/"
 },{
 	"name": "Liquid",
 	"ext": "liquid",
-	"url": "/docs/languages/liquid/"
+	"url": "/houses/languages/liquid/"
 },{
 	"name": "Nunjucks",
 	"ext": "njk",
-	"url": "/docs/languages/nunjucks/"
+	"url": "/houses/languages/nunjucks/"
 },{
 	"name": "Handlebars",
 	"ext": "hbs",
-	"url": "/docs/languages/handlebars/"
+	"url": "/houses/languages/handlebars/"
 },{
 	"name": "Mustache",
 	"ext": "mustache",
-	"url": "/docs/languages/mustache/"
+	"url": "/houses/languages/mustache/"
 },{
 	"name": "EJS",
 	"ext": "ejs",
-	"url": "/docs/languages/ejs/"
+	"url": "/houses/languages/ejs/"
 },{
 	"name": "Haml",
 	"ext": "haml",
-	"url": "/docs/languages/haml/"
+	"url": "/houses/languages/haml/"
 },{
 	"name": "Pug",
 	"ext": "pug",
-	"url": "/docs/languages/pug/"
+	"url": "/houses/languages/pug/"
 },{
 	"name": "JavaScript Template Literals",
 	"ext": "jstl",
-	"url": "/docs/languages/jstl/"
+	"url": "/houses/languages/jstl/"
 }]

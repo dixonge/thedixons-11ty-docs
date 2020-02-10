@@ -1,6 +1,6 @@
 ---
 layout: layouts/main.njk
-logoLink: /docs/
+logoLink: /houses/
 ignoreGitHubButtons: true
 ignoreSupporters: true
 searchTitle: Welcome

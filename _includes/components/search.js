@@ -163,7 +163,7 @@ class Search {
 			text.addEventListener("input", async (event) => {
 				let value = event.target.value;
 				await this.onInput(value);
-				window.history.replaceState({}, "", `/docs/search/${value ? `?q=${encodeURIComponent(value)}` : ""}`);
+				window.history.replaceState({}, "", `/houses/search/${value ? `?q=${encodeURIComponent(value)}` : ""}`);
 			}, false);
 
 			let queryString = this.getQueryString();
