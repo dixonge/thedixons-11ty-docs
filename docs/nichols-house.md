@@ -1,15 +1,10 @@
 ---
+eleventyNavigation:
+  key: Nichols House
+  order: 6
 title: Nichols House
-layout: layouts/post.njk
 author: Glenn Dixon
-date: 2019-07-05T13:28:00+00:00
-url: /nichols-house/
 image: /img/nichols-house-marker.jpg
-categories:
-  - Houses
-tags:
-  - posts
-  - Delaware
 ---
 This house is tied to other Dixon homes in the area, and had some interesting ties to historical events in the Revolutionary War, as mentioned in the historical marker above.
 
@@ -17,4 +12,4 @@ When [John Dixon](https://www.wikitree.com/wiki/Dixon-350), builder of the [Dixo
 
 In 1822 it was sold to Thomas Dixon, Jr., then in 1842 to a cousin, [Wistar T. Dixon](https://www.wikitree.com/wiki/Dixon-11646). As far as anyone can tell the house no longer exists.
 
-You can read about how the house was rediscovered by clicking [HERE](https://mchhistory.blogspot.com/2017/08/finding-nichols-house-part-i-british.html) and then [HERE](https://mchhistory.blogspot.com/2017/08/finding-nichols-house-part-ii-where.html).
+You can read here about [how the house was rediscovered](https://mchhistory.blogspot.com/2017/08/finding-nichols-house-part-i-british.html) and also [how the house was rediscovered, part two](https://mchhistory.blogspot.com/2017/08/finding-nichols-house-part-ii-where.html).

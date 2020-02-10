@@ -1,15 +1,10 @@
 ---
+eleventyNavigation:
+  key: Fading Memories
+  order: 2
 title: Fading Memories
-layout: layouts/post.njk
 author: Glenn Dixon
-date: 2018-07-27T14:26:54+00:00
-url: /img/fading-memories/
 image: /img/fading-feature.jpg
-categories:
-  - news
-tags:
- - posts
-
 ---
 [Edited July 1, 2018]
 

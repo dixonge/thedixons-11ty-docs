@@ -1,22 +1,16 @@
 ---
+eleventyNavigation:
+  key: Dixons of the World - Unite!
+  order: 1
 title: Dixons of the World – Unite!
-layout: layouts/post.njk
 author: Glenn Dixon
-date: 2018-07-27T14:24:01+00:00
-url: /dixons-of-the-world-unite/
 image: /img/unite.jpeg
-categories:
-  - news
-tags:
-  - posts
-  - WikiTree
-  
 ---
 [Revised July 1, 2018]
 
 My original idea below has been superceded by the following:
 
-1. I am now using \[WikiTree\](https://wikitree.com) for all my online genealogy. It has connected me to other Dixon genealogists more than any other source. It solves two problems &#8211; finding other fellow researchers and having a way to collaborate with them.
+1. I am now using [WikiTree](https://wikitree.com) for all my online genealogy. It has connected me to other Dixon genealogists more than any other source. It solves two problems &#8211; finding other fellow researchers and having a way to collaborate with them.
   
 2. An actual Dixon/Dickson Family Association is in the works, spearheaded by Brent Dickson frm the U.K. I'll post details when it is up and running.
 

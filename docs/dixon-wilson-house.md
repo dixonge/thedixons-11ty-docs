@@ -1,19 +1,14 @@
 ---
+eleventyNavigation:
+  key: Dixon-Wilson House
+  order: 5
 title: Dixon-Wilson House
-layout: layouts/post.njk
 author: Glenn Dixon
-date: 2018-07-27T17:43:35+00:00
-url: /dixon-wilson-house/
 image: /img/Dixon-Wilson-House.jpg
-categories:
-  - Houses
-tags:
-  - posts
-  - Delaware
 ---
-Another son of [William Dixon][1] and [Ann Gregg Dixon Houghton][2] was [John][3]. John's brother [Henry][4] built the [Dixon-Jackson House][5]. John built a home around 1732 west of Henry's home. This home, now known as the [Dixon-Wilson House][6], is on Valley Road southwest of Henry's house.
+Another son of [William Dixon][1] and [Ann Gregg Dixon Houghton][2] was [John Dixon][3]. John's brother [Henry Dixon][4] built the [Dixon-Jackson House][5]. John built a home around 1732 west of Henry's home. This home, now known as the [Dixon-Wilson House][6], is on Valley Road southwest of Henry's house.
 
-The home has a datestone inscribed &#8220;I & J Dixon &#8211; 1732&#8221; &#8211; The &#8216;I' being John's son, [Isaac][7]. When John died in 1740 Isaac inherited and lived in the home. When he died in 1766, his son inherited it. When this John died it was inherited by his son, Isaac. Yes, they liked repeating familial names! Finally, when this Isaac died the house was inherited by his oldest son, Jesher. In 1832 Jesher sold the home to the Wilsons, a fellow Quaker family with long ties to the area, and built his own house on Southwood Road, which is also still standing. I will write about that house in a future post&#8230;
+The home has a datestone inscribed &#8220;I & J Dixon &#8211; 1732&#8221; &#8211; The &#8216;I' being John's son, [Isaac Dixon][7]. When John died in 1740 Isaac inherited and lived in the home. When he died in 1766, his son inherited it. When this John died it was inherited by his son, Isaac. Yes, they liked repeating familial names! Finally, when this Isaac died the house was inherited by his oldest son, Jesher. In 1832 Jesher sold the home to the Wilsons, a fellow Quaker family with long ties to the area, and built his own house on Southwood Road, which is also still standing. I will write about that house in a future post&#8230;
 
 Here is a partial family tree of the Dixons who lived here:
 
