@@ -1,6 +1,7 @@
 ---
 searchTitle: Search
 putTheJsInTheHead: true
+layout: layouts/houses.njk
 ---
 # Search
 

@@ -5,6 +5,7 @@ eleventyNavigation:
   order: 7
 title: Dixon-Wilson House
 author: Glenn Dixon
+layout: layouts/houses.njk
 image: /img/Dixon-Wilson-House.jpg
 ---
 Another son of [William Dixon][1] and [Ann Gregg Dixon Houghton][2] was [John Dixon][3]. John's brother [Henry Dixon][4] built the [Dixon-Jackson House][5]. John built a home around 1732 west of Henry's home. This home, now known as the [Dixon-Wilson House][6], is on Valley Road southwest of Henry's house.

@@ -5,6 +5,7 @@ eleventyNavigation:
   order: 2
 title: Dixons of the World – Unite!
 author: Glenn Dixon
+layout: layouts/houses.njk
 image: /img/unite.jpeg
 ---
 [Revised July 1, 2018]

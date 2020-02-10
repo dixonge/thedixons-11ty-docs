@@ -5,6 +5,7 @@ eleventyNavigation:
   order: 4
 title: Dixon Mills Across America
 author: Glenn Dixon
+layout: layouts/houses.njk
 image: /img/tick-creek.png
 ---
 [Revised July 1, 2018]

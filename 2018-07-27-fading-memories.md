@@ -5,6 +5,7 @@ eleventyNavigation:
   order: 3
 title: Fading Memories
 author: Glenn Dixon
+layout: layouts/houses.njk
 image: /img/fading-feature.jpg
 ---
 [Edited July 1, 2018]

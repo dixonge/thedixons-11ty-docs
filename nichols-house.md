@@ -5,6 +5,7 @@ eleventyNavigation:
   order: 8
 title: Nichols House
 author: Glenn Dixon
+layout: layouts/houses.njk
 image: /img/nichols-house-marker.jpg
 ---
 This house is tied to other Dixon homes in the area, and had some interesting ties to historical events in the Revolutionary War, as mentioned in the historical marker above.
