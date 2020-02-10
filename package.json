@@ -8,8 +8,7 @@
     "links-external": "hyperlink -r --root _site --canonicalroot https://localhost:8080/ --skip '/.netlify/functions' _site/*.html | tap-spot",
     "links-internal": "hyperlink -ri --root _site --canonicalroot https://localhost:8080/ --skip '/.netlify/functions' _site/*.html | tap-spot",
     "build": "eleventy",
-    "build-production": "ELEVENTY_PRODUCTION=true eleventy",
-    "postbuild-production": "npm run links-internal"
+    "build-production": "ELEVENTY_PRODUCTION=true eleventy"
   },
   "repository": {
     "type": "git",
