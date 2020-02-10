@@ -1,5 +1,5 @@
 <header class="elv-layout elv-layout-full elv-header{% if headerClass %} {{ headerClass }}{% endif %}">
-	<a href="{% if logoLink %}{{ logoLink | url }}{% else %}/{% endif %}" class="elv-hero elv-externalexempt"><img src="{{ "/img/logo.png" | url }}" onerror="this.src='{{ "/img/logo.png" | url }}'" alt="TheDixons logo - an old-fashioned Quaker hat" loading="eager"></a>
+	<a href="{% if logoLink %}{{ logoLink | url }}{% else %}/{% endif %}" class="elv-externalexempt"><img src="{{ "/img/logo.png" | url }}" onerror="this.src='{{ "/img/logo.png" | url }}'" alt="TheDixons logo - an old-fashioned Quaker hat" loading="eager"></a>
 	<h1 class="elv-hed">{{ title | orphanWrap | safe }}</h1>
 	<div class="elv-nav-header">
 		<ul class="elv-nav lo">
