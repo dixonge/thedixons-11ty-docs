@@ -1,7 +1,7 @@
 {
-  "name": "Eleventy Docs-Style Site",
+  "name": "The-Dixons",
   "version": "1.0.0",
-  "description": "11ty site for doc-style heirarchical navigation site",
+  "description": "A Colonial Quaker Family",
   "main": "_site/index.html",
   "scripts": {
     "assets": "cp node_modules/@11ty/logo/logo.png .",
@@ -13,18 +13,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dixonge/11ty-docs.git"
+    "url": "git+https://github.com/dixonge/thedixons-11ty-docs.git"
   },
   "author": {
     "name": "Glenn Dixon",
     "email": "donblanco@posteo.net",
-    "url": "https://glenn.thedixons.net/"
+    "url": "https://thedixons.net/"
   },
   "license": "MIT",
   "bugs": {
-    "url": ""
+    "url": "https://thedixons.net"
   },
-  "homepage": "https://github.com/dixonge/11ty-docs#readme",
+  "homepage": "https://github.com/dixonge/thedixons-11ty-docs#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.10.0",
     "@11ty/eleventy-navigation": "^0.1.4",
