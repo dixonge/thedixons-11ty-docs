@@ -116,8 +116,6 @@
 }
 @media (min-width: 43.75em) { /* 700px */
 	.elv-header-docs .elv-nav-header {
-		float: left;
-		/* adjust for logo in Safari */
-		width: calc(100% - 4.303125em - 1em);
+		text-align: center;
 	}
 }

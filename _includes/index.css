@@ -1,5 +1,5 @@
-/* Screen readers only */
 .sr-only {
+	/* Screen readers only */
 	position: absolute;
 	height: 1px;
 	width: 1px; 
@@ -103,6 +103,9 @@ blockquote .bio-source {
 }
 
 /* Main */
+.subtitle {
+	margin: 0;
+}
 main {
 	font-size: 1.125em; /* 18px /16 */
 }
@@ -112,6 +115,9 @@ main img {
 main:not(:empty) {
 	padding-bottom: 3em;
 	margin-bottom: 3em;
+}
+.breadcrumb {
+	float: left;
 }
 
 /* Tables */
@@ -296,9 +302,24 @@ footer.elv-layout {
 }*/
 
 /* Header */
+
 .elv-header {
 	color: #222;
 	position: relative;
+	overflow: hidden;
+}
+.bg-hed {
+	position: relative;
+	height: auto;
+}
+.bg-hed img {
+	position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+	opacity: 0.25;
+	object-position: 0 -50px;
 }
 .elv-header-default {
 	display: flex;
@@ -329,8 +350,8 @@ footer.elv-layout {
 	margin-left: -1rem;
 	margin-right: -1rem;
 }
-.elv-header-docs .elv-hero {
-	float: left;
+.elv-header-docs  {
+	text-align: center;
 	margin-right: .5em;
 }
 .elv-header-default .elv-hero img {
@@ -408,7 +429,7 @@ footer.elv-layout {
 	font-size: 2.125em; /* 34px /16 */
 	line-height: 1.5;
 	margin: 0;
-	text-align: left;
+	text-align: center;
 }
 @media (min-width: 43.75em) { /* 700px */
 	.elv-header-docs .elv-hed {

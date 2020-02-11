@@ -7,7 +7,25 @@ layoutClass: elv-layout-toc
 isDocs: true
 ---
 
-{% include "components/docs-toc.njk" %}
+{# {% include "components/docs-toc.njk" %} #}
+
+<div class="elv-toc">
+
+<details>
+	<summary class="btn-primary benchnine rainbow-active rainbow-active-noanim">Notes</summary>
+	{%- if eleventyNavigation -%}
+		{%- set navKey = eleventyNavigation.key -%}
+	{%- endif -%}
+	{{ collections.all | eleventyNavigation("Notes") | eleventyNavigationToHtml({ activeKey: navKey, listClass: 'elv-toc-list', activeListItemClass: 'elv-toc-active' }) | safe }}
+</details>
+<details>
+	<summary class="btn-primary benchnine rainbow-active rainbow-active-noanim">Homes</summary>
+	{%- if eleventyNavigation -%}
+		{%- set navKey = eleventyNavigation.key -%}
+	{%- endif -%}
+	{{ collections.all | eleventyNavigation("Homes") | eleventyNavigationToHtml({ activeKey: navKey, listClass: 'elv-toc-list', activeListItemClass: 'elv-toc-active' }) | safe }}
+</details>
+</div>
 
 {% if eleventyNavigation and eleventyNavigation.key and eleventyNavigation.parent %}
 <nav class="breadcrumb" aria-labelledby="breadcrumb">
