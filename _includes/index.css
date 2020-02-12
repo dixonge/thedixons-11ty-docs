@@ -29,6 +29,7 @@ a,
 a:visited,
 a[href] {
 	color: #222;
+	pointer-events: auto;
 }
 a[href].naked {
 	text-decoration: none;
@@ -311,15 +312,25 @@ footer.elv-layout {
 .bg-hed {
 	position: relative;
 	height: auto;
+	z-index: -1;
+}
+.bg-lts {
+	margin-top: 10px;
+}
+.bg-lts a:after {
+	display: none;
+}
+.bg-lts a {
+	text-decoration: none;
 }
 .bg-hed img {
 	position: absolute;
     left: 0;
     top: 0;
-    width: 100%;
+    width: auto;
     height: auto;
 	opacity: 0.25;
-	object-position: 0 -50px;
+	object-position: -60px -50px;
 }
 .elv-header-default {
 	display: flex;
@@ -352,7 +363,6 @@ footer.elv-layout {
 }
 .elv-header-docs  {
 	text-align: center;
-	margin-right: .5em;
 }
 .elv-header-default .elv-hero img {
 	position: relative;
@@ -370,6 +380,10 @@ footer.elv-layout {
 	.elv-header-docs .elv-hero img {
 		width: 4.303125em; /* 68.85px /16 */
 		height: 6em;
+	}
+	.bg-hed img {
+		width: 100%;
+		object-position: 0 -15px;
 	}
 }
 /* Header Possum */
@@ -434,6 +448,7 @@ footer.elv-layout {
 @media (min-width: 43.75em) { /* 700px */
 	.elv-header-docs .elv-hed {
 		font-size: 2.625em; /* 42px /16 */
+		margin: 0 0 -10px 0;
 	}
 }
 
