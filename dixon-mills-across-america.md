@@ -7,7 +7,7 @@ title: Dixon Mills Across America
 author: Glenn Dixon
 layout: layouts/houses.njk
 ---
-![](/img/tick-creek.png)
+![cropped map of the Tick Creek area in Chatham County, North Carolina](/img/tick-creek.png)
 
 [Revised July 1, 2018]
 
@@ -19,7 +19,7 @@ William Dixon lived in the Christiana Hundred section of far northern Delaware. 
 
 William's grandson Simon Dixon bought land in North Carolina (from the ‘Lords Proprietors’) in 1751 He erected Dixon’s Mill on Cane Creek for corn and/or grain grinding. It was burned and rebuilt many times but always used that creek for water power. In 1925 a millstone from his mill was used as a commemorative gravestone as part of a monument erected by the Alamance County Historical Society. In 1953 a fire destroyed the remaining house and mill and it was purchased by a wealthy citizen of Durham who purportedly disassembled it down to the ground in a search for hidden gold.
 
-![Simon Dixon Mill on Cane Creek -- Chatham County, NC](/img/simon-dixon-mill.jpg)
+![Simon Dixon Mill on Cane Creek -- Chatham County, North Carolina](/img/simon-dixon-mill.jpg)
 
 In my direct line another of William’s grandsons, [Joseph Dixon][2], moved south of the Cane Creek area in 1764, three miles south of present-day Siler City. While most of his siblings moved on to what was then Fayette County in western Pennsylvania, he and many other Dixons (Samuel, Nathan, Caleb, Joshua) bought land up and down Tick Creek/Tick Ridge for several miles. The Napton Monthly Meeting and burial ground was in the ‘middle’ of this property. One of these Dixons (Joseph' son, [Jesse Dixon][3]) built a saw and grist mill on eleven acres near the Rocky River (see map above) which operated until 1879, but had fallen into ruin by the time Ben F. Dixon visited in 1934. Nearby, on the same Dixon tract, was an Old Tory Fort dating to the Revolution. As of 1934 it belonged to the estate of John J. Raskob.
 

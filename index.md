@@ -7,7 +7,7 @@ searchTitle: Welcome
 title: Welcome
 author: Glenn Dixon
 ---
-![My great great grandfather, William Cornall](/img/GrandpaCornall.jpg)
+![My great great grandfather, William Cornall, standing in front of a structure](/img/GrandpaCornall.jpg)
 
 My name is Glenn Dixon, and I have been researching my family history since 1998. I am deeply indebted to my mother, Millie, who used to interview relatives in the late 1950s and early 1960s every time we vacationed in either Iowa or North Carolina. I am also very lucky to have run into Pat Hageman who was managing the Moultrie County, IL USGenWeb site and who graciously sent me paperwork connecting my family tree from the mid-1800s in Illinois all the way back to the early 1600s in Ireland. Yes, I got very lucky!
 
@@ -15,7 +15,7 @@ Since then I have spent countless hours researching in libraries and court house
 
 I have tried several different software programs and web programs over the years, and even though I still haven’t found what I consider to be the perfect or ‘ideal’ way to share my family history with other Dixon descendants, [WikiTree](https://wikitree.com) is probably as close as I'm going to get. My oldest known ancestor is [Henry Dixon](https://www.wikitree.com/wiki/Dixon-347). His three children [William Dixon](https://www.wikitree.com/wiki/Dixon-357), [Dinah Dixon](https://www.wikitree.com/wiki/Dixon-344) and [Rose Dixon](https://www.wikitree.com/wiki/Dixon-353) settled in what is now northern Delaware, then part of Penn's Colony. They were Quakers.
 
-![Hockessin Meeting House](/img/hockessin.jpg)
+![Hockessin Meeting House, Delaware](/img/hockessin.jpg)
 
 On my father's side, I am working on Dixon, Stanley and Stidley lines. On my mother's, Peterson, Camp and Ellis.
 
