@@ -12,14 +12,14 @@ isDocs: true
 <div class="elv-toc">
 
 <details>
-	<summary class="btn-primary benchnine rainbow-active rainbow-active-noanim">Notes</summary>
+	<summary class="btn-primary  rainbow-active rainbow-active-noanim">Notes</summary>
 	{%- if eleventyNavigation -%}
 		{%- set navKey = eleventyNavigation.key -%}
 	{%- endif -%}
 	{{ collections.all | eleventyNavigation("Notes") | eleventyNavigationToHtml({ activeKey: navKey, listClass: 'elv-toc-list', activeListItemClass: 'elv-toc-active' }) | safe }}
 </details>
 <details>
-	<summary class="btn-primary benchnine rainbow-active rainbow-active-noanim">Homes</summary>
+	<summary class="btn-primary  rainbow-active rainbow-active-noanim">Homes</summary>
 	{%- if eleventyNavigation -%}
 		{%- set navKey = eleventyNavigation.key -%}
 	{%- endif -%}
