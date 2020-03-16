@@ -31,7 +31,7 @@ In my direct line another of William’s grandsons, [Joseph Dixon][2], moved sou
 
 In 1800 the first Dixons moved to the Scioto River Valley of Ohio. Caleb’s three sons Daniel, George and Jonathan moved to Ross County, Liberty Township. Daniel built a mill on the Scioto River and it was still grinding in 1934. Three years later, in 1803 three more Dixons moved to the area – Joseph’s sons [Jesse Dixon][3], [Samuel Dixon][6] (my direct ancestor), and [Joseph Dixon][7]. Joseph built a saw and grist mill on Salt Creek which feeds the Scioto River. To this day if you look at a map of Londonderry, Ohio in southeast Ross County you will find, just to the east of town, along a portion of the Salt Creek — Dixon Mill Road. And it is on that road that I found the remains of the old mill. Here are some photos I took in 2011.
 
-<a data-flickr-embed="true" data-header="true" data-footer="true"  href="https://www.flickr.com/photos/djtrashy/albums/72157653247461589" title="Ohio - Salt Creek - Dixon Mill"><img src="https://live.staticflickr.com/8879/17620816383_7192292085_b.jpg" width="1024" height="768" alt="Ohio - Salt Creek - Dixon Mill"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true" data-header="true" data-footer="true"  href="https://www.flickr.com/photos/djtrashy/albums/72157653247461589" title="Ohio - Salt Creek - Dixon Mill"><img src="https://live.staticflickr.com/8879/17620816383_7192292085_b.jpg" width="1024" height="768" alt="Dixon Mill on Salt Creek in Ohio"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
  [1]: https://www.wikitree.com/wiki/Dixon-357
  [2]: https://www.wikitree.com/wiki/Dixon-1123
