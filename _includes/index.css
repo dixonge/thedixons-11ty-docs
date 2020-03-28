@@ -110,6 +110,7 @@ blockquote .bio-source {
 /* Main */
 .subtitle {
 	margin: 0;
+	font-size: 2em;
 }
 main {
 	font-size: 1.125em; /* 18px /16 */
