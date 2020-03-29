@@ -8,6 +8,7 @@
     "links-external": "hyperlink -r --root _site --canonicalroot https://localhost:8080/ --skip '/.netlify/functions' _site/*.html | tap-spot",
     "links-internal": "hyperlink -ri --root _site --canonicalroot https://localhost:8080/ --skip '/.netlify/functions' _site/*.html | tap-spot",
     "build": "eleventy",
+    "watch": "eleventy --serve",
     "build-production": "ELEVENTY_PRODUCTION=true eleventy"
   },
   "repository": {
@@ -38,8 +39,9 @@
     "hyperlink": "^4.4.3",
     "lodash.defer": "^4.1.0",
     "luxon": "^1.21.3",
-    "markdown-it": "^8.4.2",
+    "markdown-it": "^10.0.0",
     "markdown-it-anchor": "^5.0.2",
+    "markdown-it-attrs": "^3.0.2",
     "markdown-it-table-of-contents": "^0.4.4",
     "node-fetch": "^2.3.0",
     "slugify": "^1.3.4",
