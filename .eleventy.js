@@ -1,28 +1,11 @@
-const { DateTime } = require("luxon");
-const htmlmin = require("html-minifier");
-const CleanCSS = require("clean-css");
-const Terser = require("terser");
-const HumanReadable = require("human-readable-numbers");
-const markdownIt = require("markdown-it");
 const syntaxHighlightPlugin = require("@11ty/eleventy-plugin-syntaxhighlight");
-const loadLanguages = require("prismjs/components/");
-const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
-const rssPlugin = require("@11ty/eleventy-plugin-rss");
+
+module.exports = function(eleventyConfig) {
+
+const { DateTime } = require("luxon");
 const cfg = require("./_data/config.js");
 const slugify = require('slugify');
 
-// Load yaml from Prism to highlight frontmatter
-loadLanguages(['yaml']);
-
-const shortcodes = {
-	link: function(linkUrl, content) {
-		return (linkUrl ? `<a href="${linkUrl}">` : "") +
-			content +
-			(linkUrl ? `</a>` : "");
-	}
-};
-
-module.exports = function(eleventyConfig) {
 	eleventyConfig.setDataDeepMerge(true);
 	if(!process.env.ELEVENTY_PRODUCTION) {
 		eleventyConfig.setQuietMode(true);
@@ -33,6 +16,17 @@ module.exports = function(eleventyConfig) {
 		ghostMode: false
 	});
 
+// Load yaml from Prism to highlight frontmatter
+const loadLanguages = require("prismjs/components/");
+loadLanguages(['yaml']);
+
+const shortcodes = {
+	link: function(linkUrl, content) {
+		return (linkUrl ? `<a href="${linkUrl}">` : "") +
+			content +
+			(linkUrl ? `</a>` : "");
+	}
+};
 	eleventyConfig.addPlugin(syntaxHighlightPlugin, {
 		templateFormats: "md",
 		init: function({ Prism }) {
@@ -45,7 +39,13 @@ module.exports = function(eleventyConfig) {
 			});
 		}
 	});
+
+// Create RSS Feed ?
+const rssPlugin = require("@11ty/eleventy-plugin-rss");
 	eleventyConfig.addPlugin(rssPlugin) ;
+
+// Load 11ty Navigation plugin
+const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 	eleventyConfig.addPlugin(eleventyNavigationPlugin);
 	  
 	eleventyConfig.addCollection("sidebarNav", function(collection) {
@@ -53,6 +53,7 @@ module.exports = function(eleventyConfig) {
 		return collection.getAll().filter(item => (item.data.tags || []).indexOf("news") === -1);
 	});
 
+const markdownIt = require("markdown-it");
 	let md = new markdownIt();
 	eleventyConfig.addPairedShortcode("callout", function(content, level = "warn", format = "html") {
 		if( format === "md" ) {
@@ -119,6 +120,7 @@ ${text.trim()}
 		return str.replace(/<a class="direct-link"[^>]*>#<\/a\>/g, "");
 	});
 
+const HumanReadable = require("human-readable-numbers");
 	eleventyConfig.addFilter("humanReadableNum", function(num) {
 		return HumanReadable.toHumanString(num);
 	});
@@ -241,22 +243,14 @@ ${text.trim()}
 		}
 	});
 
-	mdIt.linkify.tlds('.io', false);
+  mdIt.linkify.tlds('.io', false);
 	eleventyConfig.setLibrary("md", mdIt);
 
 	eleventyConfig.addFilter("newsDate", dateObj => {
 		return DateTime.fromJSDate(dateObj).toFormat("yyyy LLLL dd");
 	});
 
-	// Until https://github.com/valeriangalliat/markdown-it-anchor/issues/58 is fixed
-	eleventyConfig.addTransform("remove-aria-hidden-markdown-anchor", function(content, outputPath) {
-		if( outputPath && outputPath.endsWith(".html") ) {
-			return content.replace(/ aria\-hidden\=\"true\"\>\#\<\/a\>/g, ` title="Direct link to this heading">#</a>`);
-		}
-
-		return content;
-	});
-
+const htmlmin = require("html-minifier");
 	if( cfg.minifyHtml ) {
 		eleventyConfig.addTransform("htmlmin", function(content, outputPath) {
 			if( process.env.ELEVENTY_PRODUCTION && outputPath && outputPath.endsWith(".html") ) {
@@ -271,7 +265,7 @@ ${text.trim()}
 			return content;
 		});
 	}
-
+const Terser = require("terser");
 	eleventyConfig.addFilter("jsmin", function(code) {
 		if(process.env.ELEVENTY_PRODUCTION) {
 			let minified = Terser.minify(code);
@@ -286,11 +280,11 @@ ${text.trim()}
 		return code;
 	});
 
+const CleanCSS = require("clean-css");
 	eleventyConfig.addFilter("cssmin", function(code) {
 		if(process.env.ELEVENTY_PRODUCTION) {
 			return new CleanCSS({}).minify(code).styles;
 		}
-
 		return code;
 	});
 
