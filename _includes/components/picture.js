@@ -13,6 +13,6 @@ module.exports = (url, alt = "Missing alt text") => {
 
 module.exports = (url, alt = "Missing alt text") => {
     return `<img src="/img/${url}?nf_resize=fit&w=320" 
-    srcset="/img/${url}?nf_resize=fit&w=320 320w, /img/${url}?nf_resize=fit&w=375 375w, /img/${url}?nf_resize=fit&w=414 414w, /img/${url}?nf_resize=fit&w=756 756w"
+    srcset="/img/${url}?nf_resize=fit&w=320 320w, /img/${url}?nf_resize=fit&w=414 414w, /img/${url}?nf_resize=fit&w=756 756w"
     alt="${alt}">`;
   };
