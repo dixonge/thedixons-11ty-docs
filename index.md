@@ -14,7 +14,7 @@ Since then I have spent countless hours researching in libraries and court house
 
 I have tried several different software programs and web programs over the years, and even though I still haven’t found what I consider to be the perfect or ‘ideal’ way to share my family history with other Dixon descendants, [WikiTree](https://wikitree.com) is probably as close as I'm going to get. My oldest known ancestor is [Henry Dixon](https://www.wikitree.com/wiki/Dixon-347). His three children [William Dixon](https://www.wikitree.com/wiki/Dixon-357), [Dinah Dixon](https://www.wikitree.com/wiki/Dixon-344) and [Rose Dixon](https://www.wikitree.com/wiki/Dixon-353) settled in what is now northern Delaware, then part of Penn's Colony. They were Quakers.
 
-![Hockessin Meeting House, Delaware](/img/hockessin.jpg)
+{% picture "hockessin.jpg", "Hockessin Meeting House, Delaware" %}
 
 On my father's side, I am working on Dixon, Stanley and Stidley lines. On my mother's, Peterson, Camp and Ellis.
 
