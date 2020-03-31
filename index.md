@@ -1,12 +1,12 @@
 ---
-layout: layouts/houses.njk
+layout: layouts/houses.njk 
 ignoreGitHubButtons: true
 ignoreSupporters: true
 searchTitle: Welcome
 title: Welcome
 author: Glenn Dixon
 ---
-{% picture "GrandpaCornall.jpg", "My great great grandfather, William Cornall, standing in front of a structure" %}
+{% picture "grandpacornall.jpg", "My great great grandfather, William Cornall, standing in front of a structure" %}
 
 My name is Glenn Dixon, and I have been researching my family history since 1998. I am deeply indebted to my mother, Millie, who used to interview relatives in the late 1950s and early 1960s every time we vacationed in either Iowa or North Carolina. I am also very lucky to have run into Pat Hageman who was managing the Moultrie County, IL USGenWeb site and who graciously sent me paperwork connecting my family tree from the mid-1800s in Illinois all the way back to the early 1600s in Ireland. Yes, I got very lucky!
 

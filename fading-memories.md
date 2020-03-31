@@ -7,7 +7,7 @@ title: Fading Memories
 author: Glenn Dixon
 layout: layouts/houses.njk
 ---
-![multiple exposure image simulating a girl walking right to left and fading away](/img/fading-feature.jpg)
+{% picture "/img/fading-feature.jpg", "multiple exposure image simulating a girl walking right to left and fading away" %}
 
 [Edited July 1, 2018]
 
@@ -15,7 +15,7 @@ As the self-designated family genealogist I am keenly aware of how quickly the i
 
 Now, on top of all that which genealogists have been dealing with for years, no doubt, comes the internet. There are many web pages which I consider to be vital resources. I read them again and again finding new clues. But what if those pages were suddenly gone?
 
-![](/img/fading-teaser.jpg)
+{% picture "/img/fading-teaser.jpg", "" %}
 
 What if the hosting account ended, or the owners passed away? Do I have copies of the information somewhere? And even if **I** have a copy, what about all the other people who might need that information? Thus, I have decided that I need to copy all of these sites **and** republish them on my web site. Normally this would be considered some sort of copyright infringement but when you run across a web site with vital, unique family information and it hasn’t been updated since 1998 you should be scared! So now I have another project.
 
