@@ -51,8 +51,10 @@
   },
   "dependencies": {
     "@11ty/logo": "^2.0.2",
+    "@oclif/plugin-help": "^2.2.3",
     "acorn": "^7.1.1",
     "instant.page": "^1.2.2",
+    "netlify-cli": "^2.40.0",
     "prismjs": "^1.16.0"
   }
 }
