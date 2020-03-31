@@ -101,6 +101,9 @@ ${text.trim()}
 		return `<${tag} class="minilink minilink-addedin${extraClass ? ` ${extraClass}`: ""}">New in ${versionPrefix}${version}</${tag}>`;
 	});
 
+	// A responsive image helper using Netlify Large Media - image transformation
+	eleventyConfig.addShortcode("picture", require("./_includes/components/picture.js"));
+
 	eleventyConfig.addPassthroughCopy({
 		"node_modules/instant.page/instantpage.js": "js/instant.page.js",
 		"node_modules/@11ty/logo/img/logo-300x418.png": "img/logo-github.png",
