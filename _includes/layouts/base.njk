@@ -39,7 +39,6 @@ social:
 
 {%- set css %}
 <!-- {% include 'components/font-titles.css' %} -->
-{{ googlefonts | safe }}
 {% include 'index.css' %}
 {% include 'components/layout.css' %}
 {% include 'components/breadcrumb.css' %}
@@ -59,7 +58,6 @@ social:
 {% include 'components/details-oneway.css' %}
 {% endset %}
 		<style>{{ css | cssmin | safe }}</style>
-		<link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
 {% if feedTitle and feedUrl %}
 		<link rel="alternate" href="{{ feedUrl }}" title="{{ feedTitle }}" type="application/atom+xml">
 {% endif %}
