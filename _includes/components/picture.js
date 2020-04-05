@@ -12,5 +12,5 @@ module.exports = (url, alt = "Missing alt text") => {
 */
 
 module.exports = (url, alt = "Missing alt text") => {
-    return `<img src="/img/${url}?nf_resize=fit&w=320" srcset="/img/${url}?nf_resize=fit&w=320 320w, /img/${url}?nf_resize=fit&w=414 414w, /img/${url}?nf_resize=fit&w=756 756w" sizes="(min-width: 320px) 290px, (min-width: 414px) 384px, 756px" alt="${alt}">`;
+    return `<img src="/img/${url}?nf_resize=fit&w=320" srcset="/img/${url}?nf_resize=fit&w=320 320w, /img/${url}?nf_resize=fit&w=414 414w, /img/${url}?nf_resize=fit&w=756 756w" sizes="(max-width: 321px) 290px, (max-width: 415px) 385px, 756px" alt="${alt}">`;
   };
