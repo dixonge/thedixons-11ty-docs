@@ -1,4 +1,4 @@
-/*
+
 module.exports = (url, alt = "Missing alt text") => {
     return `<picture>
     <source srcset="/img/${url}?nf_resize=fit&w=320" media="(max-width: 320px)">
@@ -9,8 +9,8 @@ module.exports = (url, alt = "Missing alt text") => {
     <img src="/img/${url}?nf_resize=fit&w=500" alt="${alt}" />
   </picture>`;
   };
-*/
-
+/*
 module.exports = (url, alt = "Missing alt text") => {
     return `<img srcset="/img/${url}?nf_resize=fit&w=320 320w, /img/${url}?nf_resize=fit&w=756 756w" sizes="(min-width: 740px) 756px, 320px" alt="${alt}">`;
   };
+*/
