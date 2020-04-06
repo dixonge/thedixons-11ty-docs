@@ -51,6 +51,7 @@ hr {
 p {
 	max-width: 42em;
 	line-height: 1.5;
+	clear: both;
 }
 
 .nowrap {
