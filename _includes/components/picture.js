@@ -8,8 +8,3 @@ module.exports = (url, alt = "Missing alt text") => {
     <img src="/img/${url}?nf_resize=fit&w=756" alt="${alt}" />
   </picture>`;
   };
-/*
-module.exports = (url, alt = "Missing alt text") => {
-    return `<img srcset="/img/${url}?nf_resize=fit&w=320 320w, /img/${url}?nf_resize=fit&w=756 756w" sizes="(min-width: 740px) 756px, 320px" alt="${alt}">`;
-  };
-*/

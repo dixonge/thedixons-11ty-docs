@@ -7,7 +7,7 @@ title: Dixons of the World – Unite!
 author: Glenn Dixon
 layout: layouts/houses.njk
 ---
-{% picture "/img/unite.jpeg", "people raising their fists in unity" %}
+{% picture "unite.jpeg", "people raising their fists in unity" %}
 
 [Revised July 1, 2018]
 

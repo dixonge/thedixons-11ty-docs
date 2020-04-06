@@ -11,11 +11,11 @@ layout: layouts/houses.njk
 
 In 1791 [Jehu Dixon][1], son of [Isaac Dixon][2], built a fieldstone house in the eastern part of Mill Creek Hundred. After his death it eventually went to his son, [Samuel P. Dixon][3] who lived there until his death in 1879. He expanded the home and added a fieldstone barn and a springhouse.
 
-{% picture "/img/Samuel-P-Dixon-House-2.jpg", "Samuel P Dixon House, Delaware" %}
+{% picture "Samuel-P-Dixon-House-2.jpg", "Samuel P Dixon House, Delaware" %}
 
 Eventually his son, [Samuel C. Dixon][5], owned the property until it passed out of the Dixon family around 1910 or so.
 
-{% picture "/img/Samuel-P-Dixon-House-Barn.jpg", "Samuel P Dixon House Barn, Delaware" %}
+{% picture "Samuel-P-Dixon-House-Barn.jpg", "Samuel P Dixon House Barn, Delaware" %}
 
 This property still stands. You can read more about it on the [Mill Creek Hundred History Blog][7]. It is also on the National Register of Historic Places.
 

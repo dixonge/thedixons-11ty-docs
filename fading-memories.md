@@ -7,7 +7,7 @@ title: Fading Memories
 author: Glenn Dixon
 layout: layouts/houses.njk
 ---
-{% picture "/img/fading-feature.jpg", "multiple exposure image simulating a girl walking right to left and fading away" %}
+{% picture "fading-feature.jpg", "multiple exposure image simulating a girl walking right to left and fading away" %}
 
 [Edited July 1, 2018]
 
