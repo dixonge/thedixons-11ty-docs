@@ -31,7 +31,7 @@ All four generations of Dixons who lived here:
 <!-- End Family Tree Widget -->
 
 
-{% picture "/img/Samuel-P-Dixon-House-Side.jpg", "Samuel P Dixon House Side View" %}
+{% picture "Samuel-P-Dixon-House-Side.jpg", "Samuel P Dixon House Side View" %}
 
  [1]: https://www.wikitree.com/wiki/Dixon-1163
  [2]: https://www.wikitree.com/wiki/Dixon-1159
