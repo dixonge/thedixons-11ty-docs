@@ -33,6 +33,7 @@ isDocs: true
   {{ collections.all | eleventyNavigationBreadcrumb(eleventyNavigation.key) | eleventyNavigationToHtml({ listClass: 'lo lo-inline', listItemClass: 'lo-c', activeListItemClass: 'breadcrumb-active' }) | safe }}
 </nav>
 {% endif %}
+<p>
 
 {{ content | safe }}
 
