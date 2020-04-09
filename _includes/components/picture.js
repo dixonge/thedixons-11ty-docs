@@ -1,10 +1,10 @@
 
 module.exports = (url, alt = "Missing alt text") => {
     return `<picture>
-    <source srcset="/img/${url}?nf_resize=fit&w=320" media="(max-width: 320px)">
-    <source srcset="/img/${url}?nf_resize=fit&w=375" media="(max-width: 375px)">
-    <source srcset="/img/${url}?nf_resize=fit&w=414" media="(max-width: 414px)">
-    <source srcset="/img/${url}?nf_resize=fit&w=756" media="(min-width: 755px)">
-    <img src="/img/${url}?nf_resize=fit&w=756" alt="${alt}" />
+    <source srcset="https://res.cloudinary.com/donblanco/image/upload/f_auto,q_auto,w_320/TheDixons/${url}" media="(max-width: 320px)">
+    <source srcset="https://res.cloudinary.com/donblanco/image/upload/f_auto,q_auto,w_375/TheDixons/${url}" media="(max-width: 375px)">
+    <source srcset="https://res.cloudinary.com/donblanco/image/upload/f_auto,q_auto,w_414/TheDixons/${url}" media="(max-width: 414px)">
+    <source srcset="https://res.cloudinary.com/donblanco/image/upload/f_auto,q_auto,w_756/TheDixons/${url}" media="(min-width: 755px)">
+    <img src="https://res.cloudinary.com/donblanco/image/upload/f_auto,q_auto,w_756/TheDixons/${url}" alt="${alt}" />
   </picture>`;
   };
