@@ -1,8 +1,4 @@
 {
-  "name": "the-dixons",
-  "version": "1.0.0",
-  "description": "A Colonial Quaker Family",
-  "main": "_site/index.html",
   "scripts": {
     "links-external": "hyperlink -r --root _site --canonicalroot https://localhost:8080/ --skip '/.netlify/functions' _site/*.html | tap-spot",
     "links-internal": "hyperlink -ri --root _site --canonicalroot https://localhost:8080/ --skip '/.netlify/functions' _site/*.html | tap-spot",
@@ -10,20 +6,6 @@
     "watch": "eleventy --serve",
     "build-production": "ELEVENTY_PRODUCTION=true eleventy"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dixonge/thedixons-11ty-docs.git"
-  },
-  "author": {
-    "name": "Glenn Dixon",
-    "email": "donblanco@posteo.net",
-    "url": "https://thedixons.net/"
-  },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://thedixons.net"
-  },
-  "homepage": "https://github.com/dixonge/thedixons-11ty-docs#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.10.0",
     "@11ty/eleventy-navigation": "^0.1.4",
