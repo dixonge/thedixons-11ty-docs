@@ -5,3 +5,4 @@ package-lock.json
 _datacache/
 # Local Netlify folder
 .netlify
+.vscode/settings.json
